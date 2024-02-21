@@ -1,0 +1,286 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    width: 630px;
+    background-color: transparent;
+    flex-shrink: 0; 
+}
+
+.status-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.status-link-box {
+    text-align: center;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.status-link {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;   
+    overflow: hidden;
+    margin-bottom: 6px;
+    border: 3px solid rgb(255, 0, 140);
+    padding: 3px;
+    background: linear-gradient(transparent);
+}
+
+.status-link img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.status-name {
+    font-size: 14px;
+}
+
+.content-container {
+    padding: 0 14%;
+    margin-bottom: 20px;
+}
+
+.content-instablog-logo {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.content-instablog-logo img {
+    width: 100%;
+}
+
+.content-title {
+    display: flex;
+    align-items: center;
+}
+
+.content-upload-icon {
+    width: 30px;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instablognaija-name,
+.instablog9jamedia-name {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content-time {
+    font-weight: bold;
+    color: gray;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.and-name {
+    color: rgb(56, 56, 56);
+    margin: 0 6px;
+}
+
+.content-main-picture {
+    width: 100%;
+    height: 450px;
+    background-color: gray;
+    border-radius: 6px;
+    margin: 6px 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.content-main-picture img {
+    width: 100%;
+}
+
+.content-left-icon img {
+    width: 30px;
+}
+
+.content-left-icon-foward img {
+    width: 30px;
+}
+
+.below-main-picture-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-content {
+    display: flex;
+    margin: 8px 0;
+}
+
+.idealfella,
+.other {
+    font-weight: bold;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.verifid-icon img {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.verified-box {
+    display: flex;
+    align-items: center;
+}
+
+.verified-instablog {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.below-picture-info span{
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+.view-all-comment {
+    margin: 8px 0;
+    color: rgb(75, 75, 75);
+}
+
+.input-add-a-comment {
+    width: 100%;
+    height: 35px;
+    border: none;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+/*-----------------------Right Section---------------*/
+.right-section {
+    flex: 1;
+    background-color: transparent;
+    padding-left: 70px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.right-section-profile-pix {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.right-section-profile-pix img {
+    width: 110%;
+}
+
+.right-section-details-box {
+    display: flex;
+    align-items: center;
+}
+
+.right-section-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.right-section-details {
+    padding-left: 10px;
+}
+
+.tso-user-name {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.tso-display-name {
+    color: gray;
+    margin-top: 4px;
+}
+
+.switch-follow {
+    color: rgb(0, 143, 209);
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.switch-follow:hover {
+    color: rgb(0, 84, 122);
+}
+
+.suggested-for-you-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.suggested-for-you {
+    font-weight: 700;
+    color: gray;
+}
+
+.see-all {
+    cursor: pointer;
+}
+
+.see-all:hover {
+    color: gray;
+}
+
+.suggested-for-you-second {
+    color: gray;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.about-us {
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-top: 40px;
+    color: rgb(201, 201, 201);
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.about-us .link:hover {
+    text-decoration: underline;
+}
+
+.about-us-second {
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    justify-content: space-between;
+    margin-right: 100px;
+    color: rgb(201, 201, 201);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.about-us-second .link:hover {
+    text-decoration: underline;
+}
+
+.instagram-from-meta {
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(201, 201, 201);
+}

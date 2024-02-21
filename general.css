@@ -1,0 +1,13 @@
+body {
+    font-family: poppins;
+    font-size: 14px;
+    margin: 0;
+    padding-left: 250px;
+}
+
+@media (max-width: 1200px) {
+    .main {
+        flex-direction: column;
+        flex: 1;
+    }
+}
